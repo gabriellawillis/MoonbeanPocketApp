@@ -10,34 +10,38 @@
         android:name="com.example.moonbeanpocketapp.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
-
         <action
-            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
-            app:destination="@id/nav_home_second" />
+            android:id="@+id/action_nav_home_to_creatures2"
+            app:destination="@id/creatures2" />
+        <action
+            android:id="@+id/action_nav_home_to_gold"
+            app:destination="@id/gold" />
+        <action
+            android:id="@+id/action_nav_home_to_spells"
+            app:destination="@id/spells" />
+        <action
+            android:id="@+id/action_nav_home_to_equipment"
+            app:destination="@id/equipment" />
     </fragment>
     <fragment
-        android:id="@+id/nav_home_second"
-        android:name="com.example.moonbeanpocketapp.ui.home.HomeSecondFragment"
-        android:label="@string/home_second"
-        tools:layout="@layout/fragment_home_second">
-        <action
-            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
-            app:destination="@id/nav_home" />
-
-        <argument
-            android:name="myArg"
-            app:argType="string" />
-    </fragment>
-
+        android:id="@+id/creatures2"
+        android:name="com.example.moonbeanpocketapp.creatures"
+        android:label="fragment_creatures"
+        tools:layout="@layout/fragment_creatures" />
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.moonbeanpocketapp.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/gold"
+        android:name="com.example.moonbeanpocketapp.gold"
+        android:label="fragment_gold"
+        tools:layout="@layout/fragment_gold" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.moonbeanpocketapp.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/spells"
+        android:name="com.example.moonbeanpocketapp.spells"
+        android:label="fragment_spells"
+        tools:layout="@layout/fragment_spells" />
+    <fragment
+        android:id="@+id/equipment"
+        android:name="com.example.moonbeanpocketapp.equipment"
+        android:label="fragment_equipment"
+        tools:layout="@layout/fragment_equipment" />
+
 </navigation>

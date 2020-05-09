@@ -9,19 +9,19 @@
             android:icon="@drawable/ic_home"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_creatures"
             android:icon="@drawable/ic_creatures"
             android:title="@string/menu_creatures" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_spells"
             android:icon="@drawable/ic_spells"
             android:title="@string/menu_spells" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_equipment"
             android:icon="@drawable/ic_equipment"
             android:title="@string/menu_equipment" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_gold"
             android:icon="@drawable/ic_gold"
             android:title="@string/menu_gold_level" />
     </group>
