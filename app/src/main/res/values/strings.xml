@@ -17,4 +17,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reef_shark">Reef Shark</string>
+    <string name="dire_wolf">Dire Wolf</string>
+    <string name="brown_bear">Brown Bear</string>
+    <string name="giant_octopus">Giant Octopus</string>
 </resources>
